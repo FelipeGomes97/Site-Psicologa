@@ -1,0 +1,418 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #F4C60C;
+    text-align: center;
+    width: 100%;
+}
+
+header > h2 {
+    text-align: center;
+    color: black;
+    margin: 15px 20px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+header > p {
+    color: black;
+    font-size: 1em;
+    margin: 14px;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+p {
+    margin: 20px 30px;
+}
+
+button {
+    background-color: black;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section > h3, h2 {
+    color: black;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    background-color: #EADDD5;
+    text-align: center;
+}
+
+.apresentacao1 > p {
+    text-align: justify;
+    margin: 1px;
+}
+
+
+.apresentacao > h2 {
+    color: #602228;
+    text-align: center;
+}
+
+.psicologa {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.nome {
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    margin: 15px;
+}
+
+.contato > p {
+    padding: 2px 10px 15px;
+    text-align: justify;
+}
+
+.contato > h2 {
+    padding: 10px;
+}
+
+.sessao > article {
+    margin-bottom: 20px;
+}
+
+.motivacional {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.7em;
+    text-align: center;
+    width: 100%;
+}
+
+.foto-moni {
+    width: 375px;
+    height: 500px;
+    margin: 40px 10px 400px;
+    border-radius: 10px;
+}
+
+.tdah {
+    width: 200px;
+    height: 130px;
+    margin: 0px 80px 10px 150px;
+    padding: 0;
+}
+
+.relacionamento {
+    width: 200px;
+    height: 130px;
+    margin: 0px 80px 10px 150px;
+    padding: 0;
+}
+
+.autoestima {
+    width: 200px;
+    height: 160px;
+    margin: 0px 80px 10px 150px;
+    padding: 0;
+}
+
+.sessao-online {
+    width: 200px;
+    height: 150px;
+    margin: 10px 90px;
+    padding: 15px 0px;
+}
+
+.pattern {
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    margin: 20px;
+    background-color: black;
+    color: #fff;
+    font-family: 800;
+}
+
+.pattern1 {
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    margin: 20px;
+    background-color: #F4C60C;
+    color: black;
+    font-family: 800;
+}
+
+.temas {
+    background-color: #F4C60C;
+    padding: 30px 0;
+}
+
+.temas > h2 {
+    text-align: center;
+    color: black;
+}
+
+.temas > h3 {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.tema-titulo {
+    padding: 20px;
+}
+
+.destaque {
+    color: black;
+}
+
+.contato {
+    text-align: center;
+    background-color: #EADDD5;
+}
+
+.contato > h2 {
+    padding: 25px;
+}
+
+.sessao {
+    background-color: #fff;
+    text-align: center;
+}
+
+.sessao > article {
+    margin: 15px 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    display: inline-block;
+    width: 32%;
+    margin: 0 5px 15px 10px;
+}
+
+.container1 {
+    display: inline-block;
+    width: 32%;
+    margin-top: 15px;
+}
+
+.container > p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.container > h2 {
+    text-align: center;
+    margin: 15px 8px;
+    padding-top: 0;
+}
+
+.rodape {
+    background-color: #EADCD1;
+    padding: 15px 10px 30px;
+}
+
+.rodape > h2, p{
+    color: black;
+    text-align: center;
+    margin: 0 10px 15px;
+}
+
+.rodape > h2 {
+    margin: 0;
+}
+
+.rodape > ul {
+    margin: 5px 10px;
+    padding: 0;
+}
+
+.rodape > ul > li {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.psi {
+    margin: 0;
+}
+
+.btn {
+    width: 22%;
+    margin: 10px 10px 40px;
+    background-color: black;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.direitos {
+    margin: 20px 15px 5px;
+    font-size: 14px;
+}
+
+img {
+    margin: -5px 5px;
+}
+
+footer > h2 {
+    margin: 25px;
+}
+
+footer > p {
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #f4c60ca2;
+}
+
+.btn:hover {
+    background-color: rgba(128, 128, 128, 0.411);
+}
+
+.pattern:hover {
+    background-color: #F4C60C;
+    color: black;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .apresentacao {
+        flex-direction: row;
+        line-height: 42px;
+        width: 100vw;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    .foto-moni {
+        width: 200px;
+        height: 300px;
+        margin: 20px 2px 5px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 100vw;
+        margin-top: 8px;
+    }
+
+    .container {
+        display: inline-block;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .container1 {
+        display: inline-block;
+        width: 100vw;
+    }
+
+    .container > p {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .btn {
+        width: 60vw;
+        margin: 5px 12px 25px ;
+        background-color: black;
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    .tdah {
+        width: 200px;
+        height: 130px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .relacionamento {
+        width: 200px;
+        height: 130px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .autoestima {
+        width: 200px;
+        height: 160px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .sessao > article {
+        margin: 5px 25px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .pattern1 {
+        text-align: center;
+        align-items: center;
+        width: 50vw;
+        margin: 20px;
+        background-color: #F4C60C;
+        color: black;
+        font-family: 800;
+    }
+
+    .apresentacao1 > p {
+        text-align: justify;
+        margin: -10px 15px;
+    }
+
+    .crp {
+        text-align: center;
+    }
+
+}
