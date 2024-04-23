@@ -321,7 +321,7 @@ button:hover {
     transition: all 2s;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 996px) {
     
     .apresentacao {
         flex-direction: row;
