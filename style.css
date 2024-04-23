@@ -321,16 +321,16 @@ button:hover {
     transition: all 2s;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 990px) {
     
     .apresentacao {
         flex-direction: row;
         line-height: 42px;
-        width: 100vw;
+        width: 102vw;
     }
 
     header {
-        width: 100vw;
+        width: 102vw;
     }
 
     .foto-moni {
@@ -359,6 +359,10 @@ button:hover {
     .container > p {
         font-size: 1em;
         padding: 0;
+    }
+
+    .temas {
+        width: 102vw;
     }
 
     .btn {
@@ -390,6 +394,10 @@ button:hover {
         padding: 0;
     }
 
+    .sessao {
+        width: 102vw;
+    }
+
     .sessao > article {
         margin: 5px 25px;
         text-align: justify;
@@ -414,5 +422,13 @@ button:hover {
     .crp {
         text-align: center;
     }
+
+    .contato {
+        width: 102vw;
+    }
+
+   footer {
+    width: 97vw;
+   }
 
 }
