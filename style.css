@@ -335,11 +335,11 @@ button:hover {
     .apresentacao {
         flex-direction: row;
         line-height: 42px;
-        width: 102vw;
+        width: 100vw;
     }
 
     header {
-        width: 102vw;
+        width: 100vw;
     }
 
     .foto-moni {
@@ -371,7 +371,7 @@ button:hover {
     }
 
     .temas {
-        width: 102vw;
+        width: 100vw;
         padding: 20px 0;
     }
 
@@ -405,7 +405,7 @@ button:hover {
     }
 
     .sessao {
-        width: 102vw;
+        width: 100vw;
     }
 
     .sessao > h2 {
@@ -439,12 +439,17 @@ button:hover {
     }
 
     .contato {
-        width: 102vw;
+        width: 100vw;
         padding: 0;
     }
 
    footer {
-    width: 97vw;
+    width: 100vw;
+   }
+
+    .psi {
+    width: 80vw;
+    margin: 0 40px 5px;
    }
 
    .bemvinda {
