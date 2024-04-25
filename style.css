@@ -131,21 +131,21 @@ li {
 .tdah {
     width: 200px;
     height: 130px;
-    margin: 0px 80px 10px 150px;
+    margin: 0px 80px 10px 190px;
     padding: 0;
 }
 
 .relacionamento {
     width: 200px;
     height: 130px;
-    margin: 0px 80px 10px 150px;
+    margin: 0px 80px 10px 190px;
     padding: 0;
 }
 
 .autoestima {
     width: 200px;
     height: 160px;
-    margin: 0px 80px 10px 150px;
+    margin: 0px 80px 10px 190px;
     padding: 0;
 }
 
@@ -185,6 +185,7 @@ li {
 .temas > h2 {
     text-align: center;
     color: black;
+    padding: 20px 0 2px;
 }
 
 .temas > h3 {
@@ -350,7 +351,7 @@ button:hover {
     }
 
     .logo {
-        width: 102vw;
+        width: 350px;
         margin-top: 8px;
     }
 
