@@ -454,3 +454,18 @@ button:hover {
    }
 
 }
+
+@media (min-width: 961px) and (max-width: 1536px) {
+    
+    .tdah {
+        margin: 2px 125px;
+    }
+
+    .relacionamento {
+        margin: 2px 125px;
+    }
+
+    .autoestima {
+        margin: 2px 125px;
+    }
+}
