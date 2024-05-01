@@ -366,9 +366,13 @@ button:hover {
         width: 102vw;
     }
 
+    .apresentacao > .container1 > .apresentacao1 > p {
+        padding: 0 12px;
+    }
+
     .container > p {
         font-size: 1em;
-        padding: 0;
+        padding: 0 20px;
     }
 
     .temas {
@@ -446,6 +450,12 @@ button:hover {
 
    footer {
     width: 97vw;
+   }
+
+    .psi {
+    text-align: center;
+    margin: 0;
+    padding: 2px 15px 10px;
    }
 
    .bemvinda {
