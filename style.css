@@ -301,23 +301,17 @@ button:hover {
 }
 
 @media screen and (max-width: 960px) {
-
-    *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    }
-
+    
     body {
         overflow-x: hidden;
     }
 
     .apresentacao {
-        width: 100%;
+        width: 102vw;
     }
 
     header {
-        width: 100%;
+        width: 102vw;
     }
 
     .foto-moni {
@@ -334,13 +328,13 @@ button:hover {
 
     .container {
         display: inline-block;
-        width: 100%;
+        width: 102vw;
         margin: 0;
     }
 
     .container1 {
         display: inline-block;
-        width: 100%;
+        width: 102vw;
     }
 
     .apresentacao > .container1 > .apresentacao1 > p {
@@ -353,7 +347,7 @@ button:hover {
     }
 
     .temas {
-        width: 100%;
+        width: 102vw;
         padding: 20px 0;
     }
 
@@ -387,7 +381,7 @@ button:hover {
     }
 
     .sessao {
-        width: 100%;
+        width: 102vw;
     }
 
     .sessao > h2 {
@@ -421,7 +415,7 @@ button:hover {
     }
 
     .contato {
-        width: 100vw;
+        width: 102vw;
         padding: 0;
     }
 
