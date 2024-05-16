@@ -303,16 +303,16 @@ button:hover {
 @media screen and (max-width: 960px) {
     
     body {
-        width: 100vw;
+        width: 100%;
         overflow-x: hidden;
     }
 
     .apresentacao {
-        width: 100vw;
+        width: 100%;
     }
 
     header {
-        width: 100vw;
+        width: 100%;
     }
 
     .foto-moni {
@@ -329,13 +329,13 @@ button:hover {
 
     .container {
         display: inline-block;
-        width: 100vw;
+        width: 100%;
         margin: 0;
     }
 
     .container1 {
         display: inline-block;
-        width: 100vw;
+        width: 100%;
     }
 
     .apresentacao > .container1 > .apresentacao1 > p {
@@ -348,7 +348,7 @@ button:hover {
     }
 
     .temas {
-        width: 102vw;
+        width: 100%;
         padding: 20px 0;
     }
 
@@ -382,7 +382,7 @@ button:hover {
     }
 
     .sessao {
-        width: 100vw;
+        width: 100%;
     }
 
     .sessao > h2 {
@@ -416,12 +416,12 @@ button:hover {
     }
 
     .contato {
-        width: 100vw;
+        width: 100%;
         padding: 0;
     }
 
    footer {
-    width: 100vw;
+    width: 100%;
    }
 
    .psi {
@@ -433,6 +433,11 @@ button:hover {
    .bemvinda {
     font-size: 17px;
     padding-bottom: 15px;
+   }
+
+   img {
+    float: none;
+    overflow-x: hidden;
    }
 
 }
@@ -451,4 +456,3 @@ button:hover {
         margin: 2px 125px;
     }
 }
-
