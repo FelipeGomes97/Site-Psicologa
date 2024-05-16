@@ -311,8 +311,7 @@ button:hover {
     }
 
     header {
-        width: 100vw;
-        overflow-x: hidden;
+        width: 100%;
     }
 
     .foto-moni {
@@ -335,7 +334,7 @@ button:hover {
 
     .container1 {
         display: inline-block;
-        width: 100vw;
+        width: 100%;
     }
 
     .apresentacao > .container1 > .apresentacao1 > p {
@@ -348,7 +347,7 @@ button:hover {
     }
 
     .temas {
-        width: 100vw;
+        width: 100%;
         padding: 20px 0;
     }
 
@@ -382,7 +381,7 @@ button:hover {
     }
 
     .sessao {
-        width: 100vw;
+        width: 100%;
     }
 
     .sessao > h2 {
