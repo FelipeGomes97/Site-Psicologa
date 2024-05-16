@@ -328,7 +328,7 @@ button:hover {
 
     .container {
         display: inline-block;
-        width: 100vw;
+        width: 100%;
         margin: 0;
     }
 
