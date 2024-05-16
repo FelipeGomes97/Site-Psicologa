@@ -91,12 +91,6 @@ li {
     font-size: 25px;
 }
 
-.nome {
-    font-family: "Dancing Script", cursive;
-    font-size: 45px;
-    margin: 15px;
-}
-
 .contato {
     padding: 0 100px;
 }
@@ -112,13 +106,6 @@ li {
 
 .sessao > article {
     margin-bottom: 20px;
-}
-
-.motivacional {
-    font-family: "Dancing Script", cursive;
-    font-size: 1.7em;
-    text-align: center;
-    width: 100%;
 }
 
 .foto-moni {
@@ -313,20 +300,6 @@ button:hover {
     color: black;
 }
 
-.hidden {
-    opacity: 0;
-    filter: blur(15px);
-    transform: translateX(-100%);
-    transition: all 2s;
-}
-
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(-100%);
-    transition: all 2s;
-}
-
 @media screen and (max-width: 960px) {
 
     body {
@@ -334,13 +307,12 @@ button:hover {
     }
 
     .apresentacao {
-        flex-direction: row;
-        line-height: 42px;
-        width: 102vw;
+        width: 100%;
     }
 
     header {
-        width: 102vw;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
     .foto-moni {
@@ -363,11 +335,11 @@ button:hover {
 
     .container1 {
         display: inline-block;
-        width: 102vw;
+        width: 100vw;
     }
 
     .apresentacao > .container1 > .apresentacao1 > p {
-        padding: 0 12px;
+        padding: 12px;
     }
 
     .container > p {
@@ -376,7 +348,7 @@ button:hover {
     }
 
     .temas {
-        width: 102vw;
+        width: 100vw;
         padding: 20px 0;
     }
 
@@ -410,7 +382,7 @@ button:hover {
     }
 
     .sessao {
-        width: 102vw;
+        width: 100vw;
     }
 
     .sessao > h2 {
@@ -444,15 +416,15 @@ button:hover {
     }
 
     .contato {
-        width: 102vw;
+        width: 100vw;
         padding: 0;
     }
 
    footer {
-    width: 97vw;
+    width: 100%;
    }
 
-    .psi {
+   .psi {
     text-align: center;
     margin: 0;
     padding: 2px 15px 10px;
@@ -479,3 +451,4 @@ button:hover {
         margin: 2px 125px;
     }
 }
+
