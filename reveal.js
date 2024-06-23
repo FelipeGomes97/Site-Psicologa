@@ -24,7 +24,7 @@ revelar.reveal('.tema1',
 revelar.reveal('.tema2',
 {
     duration: 2500,
-    distance: '90px',
+    distance: '110px',
 })
 
 revelar.reveal('.tema3',
