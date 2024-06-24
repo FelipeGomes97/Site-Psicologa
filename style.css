@@ -70,7 +70,7 @@ li {
 }
 
 .apresentacao {
-    background-color: #EADDD5;
+    background-color: rgba(128, 128, 128, 0.17);
     text-align: center;
 }
 
@@ -109,9 +109,9 @@ li {
 }
 
 .foto-moni {
-    width: 375px;
-    height: 500px;
-    margin: 40px 10px 400px;
+    width: 250px;
+    height: 370px;
+    margin: 80px 20px 400px;
     border-radius: 10px;
 }
 
@@ -191,7 +191,7 @@ li {
 
 .contato {
     text-align: center;
-    background-color: #EADDD5;
+    background-color: #F0F2F5;
 }
 
 .contato > h2 {
@@ -247,8 +247,16 @@ li {
     padding-top: 0;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex > .contato {
+    width: 90%;
+}
+
 .rodape {
-    background-color: #EADCD1;
+    background-color: #F4C60C;
     padding: 15px 10px 30px;
 }
 
@@ -329,15 +337,16 @@ button:hover {
     .apresentacao {
         width: 100%;
         padding: 20px 0;
+        background-color: #F0F2F5;
     }
 
     header {
         width: 100%;
     }
-
+    
     .foto-moni {
-        width: 200px;
-        height: 300px;
+        width: 180px;
+        height: 270px;
         margin: 20px 2px 5px;
         border-radius: 10px;
     }
@@ -385,6 +394,14 @@ button:hover {
         height: 130px;
         margin: 2px 100px;
         padding: 0;
+    }
+
+    .flex {
+        display: grid;
+    }
+
+    .flex > .contato {
+        width: 100%;
     }
 
     .relacionamento {
@@ -439,6 +456,7 @@ button:hover {
         width: 100%;
         padding: 0;
         padding-bottom: 10px;
+        background-color: #F0F2F5;
     }
 
     .contato1 > p {
@@ -454,6 +472,10 @@ button:hover {
    .bemvinda {
     font-size: 17px;
     padding-bottom: 15px;
+   }
+
+   .rodape {
+    background-color: #F4C60C;
    }
 }
 
