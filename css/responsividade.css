@@ -1,0 +1,475 @@
+@media screen and (max-width: 767px) {
+    
+    body {
+        width: 100%;
+        float: none;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    .apresentacao {
+        width: 100%;
+        padding: 20px 0;
+        background-color: #F0F2F5;
+    }
+
+    header {
+        width: 100%;
+    }
+    
+    .foto-moni {
+        width: 180px;
+        height: 270px;
+        margin: 20px 2px 5px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 350px;
+        margin-top: 8px;
+    }
+
+    .container {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container1 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .apresentacao > .container1 > .apresentacao1 > p {
+        padding: 12px;
+    }
+
+    .container > p {
+        font-size: 1em;
+        padding: 0 20px;
+    }
+
+    .temas {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .btn {
+        width: 60vw;
+        margin: 5px 12px 25px ;
+        background-color: black;
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    .tdah {
+        width: 200px;
+        height: 130px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .flex {
+        display: grid;
+    }
+
+    .flex > .contato {
+        width: 100%;
+    }
+
+    .relacionamento {
+        width: 200px;
+        height: 130px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .autoestima {
+        width: 200px;
+        height: 160px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .sessao {
+        width: 100%;
+    }
+
+    .sessao > h2 {
+        padding: 5px 15px;
+    }
+
+    .sessao > article {
+        margin: 5px 25px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .pattern1 {
+        text-align: center;
+        align-items: center;
+        width: 50vw;
+        margin: 20px;
+        background-color: #F4C60C;
+        color: black;
+        font-family: 800;
+    }
+
+    .apresentacao1 > p {
+        text-align: justify;
+        margin: -15px 20px;
+        padding: 0;
+    }
+
+    .crp {
+        text-align: center;
+    }
+
+    .contato {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
+        background-color: #F0F2F5;
+    }
+
+    .contato1 > p {
+        padding: 0 15px 15px;
+    }
+
+   .psi {
+    text-align: center;
+    margin: 0;
+    padding: 2px 15px 10px;
+   }
+
+   .bemvinda {
+    font-size: 17px;
+    padding-bottom: 15px;
+   }
+
+   .rodape {
+    background-color: #F4C60C;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 961px) {
+    
+    body {
+        width: 100%;
+        float: none;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    .apresentacao {
+        width: 100%;
+        padding: 20px 0;
+        background-color: #F0F2F5;
+    }
+
+    header {
+        width: 100%;
+    }
+    
+    .foto-moni {
+        width: 180px;
+        height: 270px;
+        margin: 20px 2px 5px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 350px;
+        margin-top: 8px;
+    }
+
+    .container {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container1 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .apresentacao > .container1 > .apresentacao1 > p {
+        padding: 12px;
+    }
+
+    .container > p {
+        font-size: 1em;
+        padding: 0 20px;
+    }
+
+    .temas {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .btn {
+        width: 60vw;
+        margin: 5px 12px 25px ;
+        background-color: black;
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    .tdah {
+        width: 200px;
+        height: 130px;
+        margin: 2px 100px;
+        padding: 0;
+    }
+
+    .flex {
+        display: grid;
+    }
+
+    .flex > .contato {
+        width: 100%;
+    }
+
+    .sessao {
+        width: 100%;
+    }
+
+    .sessao > h2 {
+        padding: 5px 15px;
+    }
+
+    .sessao > article {
+        width: 70%;
+        margin: 5px 25px;
+        padding-left: 100px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .pattern1 {
+        text-align: center;
+        align-items: center;
+        width: 50vw;
+        margin: 20px;
+        background-color: #F4C60C;
+        color: black;
+        font-family: 800;
+    }
+
+    .apresentacao1 > p {
+        text-align: justify;
+        margin: -15px 20px;
+        padding: 0;
+    }
+
+    .crp {
+        text-align: center;
+    }
+
+    .contato {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
+        background-color: #F0F2F5;
+    }
+
+    .contato1 > p {
+        padding: 0 15px 15px;
+    }
+
+   .psi {
+    text-align: center;
+    margin: 0;
+    padding: 2px 15px 10px;
+   }
+
+   .bemvinda {
+    font-size: 17px;
+    padding-bottom: 15px;
+   }
+
+   .rodape {
+    background-color: #F4C60C;
+   }
+    
+    .tdah {
+        margin: 2px 150px;
+        padding-left: 150px;
+    }
+
+    .relacionamento {
+        margin: 2px 150px;
+        padding-left: 150px;
+    }
+
+    .autoestima {
+        margin: 2px 150px;
+        padding-left: 150px;
+    }
+}
+
+@media (min-width: 962px) and (max-width: 1538px) {
+    
+    body {
+        width: 100%;
+        float: none;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    .apresentacao {
+        width: 100%;
+        padding: 20px 0;
+        background-color: #F0F2F5;
+    }
+
+    header {
+        width: 100%;
+    }
+    
+    .foto-moni {
+        width: 180px;
+        height: 270px;
+        margin: 20px 2px 5px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 350px;
+        margin-top: 8px;
+    }
+
+    .container {
+        display: inline-block;
+        width: 30%;
+        padding-left: 25px;
+        margin: 0;
+    }
+
+    .container1 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .apresentacao > .container1 > .apresentacao1 > p {
+        padding: 12px;
+        padding-left: 50px;
+        width: 90%;
+    }
+
+    .container > p {
+        font-size: 1em;
+        padding: 0 20px;
+    }
+
+    .temas {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .btn {
+        width: 60vw;
+        margin: 5px 12px 25px ;
+        background-color: black;
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    .flex {
+        display: grid;
+    }
+
+    .flex > .contato {
+        width: 100%;
+    }
+
+    .sessao {
+        width: 100%;
+    }
+
+    .sessao > h2 {
+        padding: 5px 15px;
+    }
+
+    .sessao > article {
+        margin: 5px 25px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .pattern1 {
+        text-align: center;
+        align-items: center;
+        width: 50vw;
+        margin: 20px;
+        background-color: #F4C60C;
+        color: black;
+        font-family: 800;
+    }
+
+    .apresentacao1 > p {
+        text-align: justify;
+        margin: -15px 20px;
+        padding: 0;
+    }
+
+    .crp {
+        text-align: center;
+    }
+
+    .contato {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
+        background-color: #F0F2F5;
+    }
+
+    .contato1 > p {
+        padding: 0 15px 15px;
+    }
+
+   .psi {
+    text-align: center;
+    margin: 0;
+    padding: 2px 15px 10px;
+   }
+
+   .bemvinda {
+    font-size: 17px;
+    padding-bottom: 15px;
+   }
+
+   .rodape {
+    background-color: #F4C60C;
+   }
+    
+    .tdah {
+        margin: 2px 125px;
+        padding-left: 0;
+    }
+
+    .relacionamento {
+        margin: 2px 125px;
+        padding-left: 0;
+    }
+
+    .autoestima {
+        margin: 2px 125px;
+        padding-left: 0;
+    }
+
+    .flex {
+        display: flex;
+    }
+    
+    .flex > .contato {
+        width: 90%;
+    }
+}
