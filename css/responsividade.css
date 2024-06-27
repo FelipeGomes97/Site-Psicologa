@@ -183,7 +183,7 @@
     }
 
     .logo {
-        width: 350px;
+        width: 500px;
         margin-top: 8px;
     }
 
@@ -325,6 +325,7 @@
     }
 
     .apresentacao {
+        display: flex;
         width: 100%;
         padding: 20px 0;
         background-color: #F0F2F5;
@@ -335,14 +336,16 @@
     }
     
     .foto-moni {
-        width: 180px;
+        width: 200px;
         height: 270px;
         margin: 20px 2px 5px;
         border-radius: 10px;
+        padding-left: 150px;
+        padding-top: 80px;
     }
 
     .logo {
-        width: 350px;
+        width: 30%;
         margin-top: 8px;
     }
 
@@ -360,7 +363,7 @@
 
     .apresentacao > .container1 > .apresentacao1 > p {
         padding: 12px;
-        padding-left: 50px;
+        padding-left: 0px;
         width: 90%;
     }
 
