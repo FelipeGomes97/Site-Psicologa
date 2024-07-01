@@ -64,6 +64,11 @@ li {
     padding: 8px;
 }
 
+span {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .logo {
     width: 25%;
     margin: 0;
@@ -323,3 +328,7 @@ button:hover {
     background-color: #F4C60C;
     color: black;
 }
+
+.fabrands {
+    color: #000000;
+   }

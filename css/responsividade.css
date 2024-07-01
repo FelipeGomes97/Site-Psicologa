@@ -9,6 +9,11 @@
         overflow-x: hidden;
     }
 
+    span {
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+
     .apresentacao {
         width: 100%;
         padding: 20px 0;
@@ -163,6 +168,11 @@
 
     main {
         overflow-x: hidden;
+    }
+
+    span {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
     }
 
     .apresentacao {
@@ -324,6 +334,11 @@
         overflow-x: hidden;
     }
 
+    span {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+
     .apresentacao {
         display: flex;
         width: 100%;
@@ -378,7 +393,7 @@
     }
 
     .btn {
-        width: 60vw;
+        width: 30%;
         margin: 5px 12px 25px ;
         background-color: black;
         color: #fff;
@@ -402,7 +417,7 @@
     }
 
     .sessao > article {
-        margin: 5px 25px;
+        margin: 5px 80px;
         text-align: justify;
         align-items: center;
     }
@@ -410,11 +425,15 @@
     .pattern1 {
         text-align: center;
         align-items: center;
-        width: 50vw;
+        width: 40%;
         margin: 20px;
         background-color: #F4C60C;
         color: black;
         font-family: 800;
+    }
+
+    .pattern {
+        width: 25%;
     }
 
     .apresentacao1 > p {
