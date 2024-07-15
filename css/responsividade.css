@@ -14,6 +14,12 @@
         font-family: 'Poppins', sans-serif;
     }
 
+    .whatsapp {
+        font-size: 50px;
+        bottom: 30px;
+        right: 20px;
+    }
+
     .apresentacao {
         width: 100%;
         padding: 20px 0;
