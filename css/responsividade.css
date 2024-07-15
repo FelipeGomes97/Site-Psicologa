@@ -16,6 +16,7 @@
 
     .whatsapp {
         font-size: 50px;
+        position: fixed;
         bottom: 30px;
         right: 20px;
     }
@@ -179,6 +180,13 @@
     span {
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .whatsapp {
+        font-size: 60px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
     }
 
     .apresentacao {
