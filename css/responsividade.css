@@ -43,6 +43,10 @@
         margin-top: 8px;
     }
 
+    .logo-tipografica > h1 {
+        font-size: 30px;
+    }
+
     .container {
         display: inline-block;
         width: 100%;
